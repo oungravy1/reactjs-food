@@ -1,23 +1,34 @@
 import React from"react";
 import "./index.css";
-import DefaultLayout from "./layout/DefaultLayout";
+import DefaultLayout from "../layout/DefaultLayout";
+import Nav from "../nav";
 
- 
 const App: React.FC = () => {
   return (
   
-  <div>
       <DefaultLayout>
+        {/* Nav */}
+        <Nav />
+        {/* End of Nav */}
 
-        hello kok
+        {/* Hero */}
+        {/* End of Hero */}
+          
+        {/* About */}
+        {/* End of About */}
 
-        <h1>Hi</h1>
-        
-        <h2>Bye</h2>
+        {/* Menu */}
+        {/* End of Menu */}
+
+        {/* Contact */}
+        {/* End of Contact */}
+
+        {/* Footer */}
+        {/* End of Footer */}
+
 
       </DefaultLayout>
-   </div>
-   
+
   )
    
 }
